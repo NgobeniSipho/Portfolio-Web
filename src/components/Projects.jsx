@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import king from '../assets/King.jpg'
+import king from '../assets/kingCode.PNG'
 import lion from '../assets/lion.jpeg'
 import cctv from '../assets/cctv.jpg'
 
@@ -17,10 +17,10 @@ function Projects() {
         technology, artistry, and ingenuity.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={king} title={'King Coming soon'}/>
-        <ProjectItem img={lion} title={'Find Coming soon'}/>
-        <ProjectItem img={cctv} title={'CCTV Coming soon'}/>
-        <ProjectItem img={king} title={'Coming soon'}/>
+        <ProjectItem img={king} title={'King Code'} link={'https://king-code-sotlutions.onrender.com'}/>
+        <ProjectItem img={lion} title={'Find Coming soon'} link={'/'}/>
+        <ProjectItem img={cctv} title={'CCTV Coming soon'} link={'/'}/>
+        <ProjectItem img={king} title={'Coming soon'} link={'/'}/>
       </div>
     </div>
   )
