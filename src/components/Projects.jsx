@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import king from '../assets/kingCode.PNG'
+import king from '../assets/King.jpg'
 import lion from '../assets/lion.jpeg'
 import cctv from '../assets/cctv.jpg'
 
