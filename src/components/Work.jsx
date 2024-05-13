@@ -5,7 +5,7 @@ const data = [
     {
         year: 2024,
         title: 'Full-Stack Developer',
-        duration: '1 year',
+        duration: 'Current',
         details: 
         'Presently, I am immersed in a comprehensive full-stack training program at Capaciti, where I am honing my skills across various dimensions of software development.'
     },
